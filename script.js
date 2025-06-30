@@ -35,8 +35,7 @@ function resetSelected() {
   allGameIcons.forEach((icon) => {
     icon.classList.remove("selected");
   });
-  stopConfetti();
-  removeConfetti();
+  removeConfettiInner();
 }
 
 // Reset Score & playeChoice/computerChoice
